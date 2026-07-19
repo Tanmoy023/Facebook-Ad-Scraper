@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>GraphQL & JSON Extractor</title>
+  <link rel="stylesheet" href="popup.css" />
+</head>
+<body>
+  <div class="header">
+    <h1>GraphQL &amp; JSON Extractor</h1>
+    <span id="count" class="count-badge">0</span>
+  </div>
+
+  <div class="toolbar">
+    <button id="extractBtn" class="btn primary">Extract</button>
+    <button id="downloadBtn" class="btn secondary">Download</button>
+    <button id="clearBtn" class="btn ghost">Clear</button>
+  </div>
+
+  <div id="status" class="status"></div>
+
+  <div id="list" class="list">
+    <div class="empty">Click "Extract" to load captured data for this page.</div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>
